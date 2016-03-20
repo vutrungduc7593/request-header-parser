@@ -1,9 +1,15 @@
-# Vu Trung Duc API - Timestamp
+# Vu Trung Duc API - Request header parser
 
 ## Example usage
-> https://timestamp-vuduc.herokuapp.com/December%2015,%202015 
->
-> https://timestamp-vuduc.herokuapp.com/1450137600
+```bash
+https://request-header-parser-vuduc.herokuapp.com/api/whoami
+```
 
 ## Example output
-> { "unix": 1450137600, "natural": "December 15, 2015" }
+```bash
+{
+   "ipaddress": "171.234.223.22",
+   "language": "en-US",
+   "software": "Mozilla/5.0 (X11; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0"
+}
+```
